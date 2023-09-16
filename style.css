@@ -1,0 +1,58 @@
+*
+{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:aliceblue; 
+     display: flex;
+     gap: 2vw;
+    align-items: center;
+    justify-content: center; 
+}
+
+#one{
+    border-radius: 20px;
+    height:10vw;
+    width:10vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    /* background-color: rgb(132, 77, 5); */
+    /* font-size:0.5vw;   */
+}
+#one h1{
+font-size: 5vw;
+font-family: sans-serif  ;
+}
+.happy{
+    position: absolute;
+    top:9vw;
+    font-size:5vw;
+    left: 5vw;
+}
+.days{
+    background-color: aqua;
+}
+.hours{
+    background-color: aqua;
+}
+.minuts{
+    background-color: aqua;
+}
+.seconds{
+    background-color: rgb(0, 156, 156);
+}
+#one p{ 
+    font-family: sans-serif;
+    font-size: 2vw;
+    }
+    
